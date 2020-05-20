@@ -1,0 +1,28 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "This project was part of the Udemy course \"Architecting Reactive Angular Applications with Redux & NgRx\" by Packt Publishing.",
+  "main": "index.js",
+  "scripts": {
+    "start:redux": "node redux.js",
+    "start": "node app.js",
+    "start:lost-data": "node app2.js",
+    "start:behavior-subject": "node app3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitaicharan/Udemy-ARAAWRANGRX2.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Nitai Charan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitaicharan/Udemy-ARAAWRANGRX2/issues"
+  },
+  "homepage": "https://github.com/nitaicharan/Udemy-ARAAWRANGRX2#readme",
+  "dependencies": {
+    "rxjs": "^6.5.5"
+  }
+}
